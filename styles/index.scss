@@ -1,0 +1,15 @@
+.titleStyle {
+  display: block;
+
+  color: #ff0000;
+
+  font-size: 30px;
+
+  transition: .3s;
+}
+
+.titleStyle:hover {
+  color: #00ff00;
+
+  font-size: 50px;
+}
