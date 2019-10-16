@@ -22,24 +22,24 @@ export default class extends React.Component{
           <Link href="/pop">
             <div className={scss.genre}>POP</div>
           </Link>
-          <Link href="/hiphop">
-            <div className={scss.genre}>HIPHOP</div>
-          </Link>
           <Link href="/idol">
             <div className={scss.genre}>IDOL</div>
           </Link>
-          <link href="/rock">
+          <Link href="/hiphop">
+            <div className={scss.genre}>HIPHOP</div>
+          </Link>
+          <Link href="/rock">
             <div className={scss.genre}>ROCK</div>
-          </link>
-        </div>/
+          </Link>
+        </div>
         
         <Link href="/">
           <div className={scss.footer}>
           <footer>
-            <address>
+            {/* <address> */}
               このサイトにご意見ご要望はこちらまで：
-              <a href="mailto:kanrinin@example.com">管理人</a>
-              </address>
+              <a href="mailto:kanrinin@icloud.com">管理人</a>
+              {/* </address> */}
               </footer>
           </div>
         </Link>

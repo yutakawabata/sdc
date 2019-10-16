@@ -10,7 +10,6 @@ export default class extends React.Component{
 
       <br/>
 
-      <p className={scss.titleStyle}>Hello Next.js</p>
     </div>
     )
   }
