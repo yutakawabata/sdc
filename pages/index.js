@@ -1,6 +1,7 @@
 import React from 'react'
 import scss from "../styles/index.scss"
 import Navi from "../components/navigation.js"
+import Footer from "../components/footer.js"
 
 export default class extends React.Component{
   render() {
@@ -8,7 +9,9 @@ export default class extends React.Component{
     <div>
       <Navi/>
 
-      <br/>
+      <p>ちんちん</p>
+
+      <Footer/>
 
     </div>
     )

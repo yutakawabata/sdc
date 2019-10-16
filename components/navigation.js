@@ -16,7 +16,6 @@ export default class extends React.Component{
         <div className={scss.serch}>
           <h1>スレを検索する</h1>
           <p>キーワード検索</p>
-
           
           <p>ジャンル検索</p>
           <Link href="/pop">
@@ -32,17 +31,6 @@ export default class extends React.Component{
             <div className={scss.genre}>ROCK</div>
           </Link>
         </div>
-        
-        <Link href="/">
-          <div className={scss.footer}>
-          <footer>
-            {/* <address> */}
-              このサイトにご意見ご要望はこちらまで：
-              <a href="mailto:kanrinin@icloud.com">管理人</a>
-              {/* </address> */}
-              </footer>
-          </div>
-        </Link>
       </div>
     )
   }
